@@ -1,0 +1,20 @@
+{
+    "name": "williamt6969/teb-chan",
+    "description": "Forum obrazkowe",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "williamt6969\\TebChan\\": "class/"
+        }
+    },
+    "authors": [
+        {
+            "name": "William Tao",
+            "email": "william.tao@teb.edu.pl"
+        }
+    ],
+    "require": {
+        "steampixel/simple-php-router": "^0.7.1",
+        "smarty/smarty": "^5.4"
+    }
+}
